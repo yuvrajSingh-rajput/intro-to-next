@@ -70,12 +70,12 @@ export default function SignupComponent() {
                             </div>
                             <button
                                 onClick={() => {
-                                    axios.post("http://localhost:3000/api/user", {
+                                    axios.post("http://localhost:3000/api/user/signup", {
                                         userName,
                                         email,
                                         password,
                                     });
-                                    router.push("/");
+                                    router.push("/signin");
                                 }}
                                 type="button"
                                 className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"

@@ -23,7 +23,7 @@ export default function SigninComponent(){
               <form className="space-y-4">
                 <div className="space-y-2">
                   <label htmlFor="username" className="text-sm font-medium">
-                    Username
+                    Email
                   </label>
                   <input
                     id="username"
